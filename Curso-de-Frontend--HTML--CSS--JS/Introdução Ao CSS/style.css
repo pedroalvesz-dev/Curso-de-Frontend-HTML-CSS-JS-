@@ -1,6 +1,33 @@
 body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    background-color: white;
+}
+h1{
+    color:rebeccapurple;
+    font-style: initial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: serif;
+    font-size: 200px;
+    text-decoration: underline;  
+}
+.totentando{
+    color: rgb(130, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: end;
+
+}
+
+p{
+    color: #00f;
+    text-align: justify;
+    font-family: serif;
+    font-size: 80px;
+    font-style: normal;
+    text-indent: 400px;
+}
+
+a{
+    text-decoration: none;
 }
