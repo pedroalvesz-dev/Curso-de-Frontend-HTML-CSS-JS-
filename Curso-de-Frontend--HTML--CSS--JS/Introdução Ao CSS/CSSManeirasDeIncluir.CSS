@@ -1,3 +1,17 @@
-p{
-    color: rgb(170, 105, 26);
+
+.destacando{
+    color: rgb(14, 69, 61);
+    font-weight: bold;
+    font-style: italic;
+    
 }
+a{
+        color: rgb(112, 82, 105);
+        text-decoration: none;
+    }
+
+#destacandoID{
+    color: rgb(58, 26, 26);
+    font-variant: small-caps;
+    text-transform:uppercase;
+}    
