@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: 0 auto;
+}
+.TitulosExclusivo{
+    color: rgb(7, 166, 7);
+    background-color:chocolate;
+    text-align: center;
+    border-right:5px solid greenyellow;
+    border-left: 5px solid greenyellow;
+    border-bottom: 5px solid greenyellow;
+    width: 90%;
+    padding-right:99px;
+}
+
+.paraOmeio{
+    text-align: center;
+    padding-right:99px;
+    
+}
+.Titulos{
+    background-color: chocolate;
+    color: greenyellow;
+    padding: 10px;
+    border-right:5px solid greenyellow;
+    border-left: 5px solid greenyellow;
+    border-bottom: 5px solid greenyellow;
+    margin-top: 2%;
+    text-align: center;
+    width: 90%;
+    padding-right:99px;
+}
+.negritos{
+    color: rgba(21, 217, 80, 0.751);
+    font-weight: bold;
+}
+.paragrafos{
+    color: rgb(13, 116, 34);
+    font-weight: bold;
+}
+p{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+ul{
+list-style-position: inside;
+padding-left: 0;
+}
+
+ul li{
+    font-weight: bold;
+}
