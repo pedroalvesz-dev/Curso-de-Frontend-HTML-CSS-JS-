@@ -10,14 +10,21 @@ body{
     text-align: center;
     border-right:5px solid greenyellow;
     border-left: 5px solid greenyellow;
-    border-bottom: 5px solid greenyellow;
-    width: 90%;
+    /* width: 90%; */
     padding-right:99px;
+    margin-bottom: 0;
+    
 }
 
 .paraOmeio{
     text-align: center;
+    /* width: 90%; */
     padding-right:99px;
+    margin-top: 0;
+    background-color:chocolate;
+    border-right:5px solid greenyellow;
+    border-left: 5px solid greenyellow;
+    border-bottom: 5px solid greenyellow;
     
 }
 .Titulos{
@@ -29,7 +36,7 @@ body{
     border-bottom: 5px solid greenyellow;
     margin-top: 2%;
     text-align: center;
-    width: 90%;
+    /* width: 90%; */
     padding-right:99px;
 }
 .negritos{
@@ -49,8 +56,36 @@ p{
 ul{
 list-style-position: inside;
 padding-left: 0;
+
 }
 
 ul li{
-    font-weight: bold;
+    font-weight: bold;   
+}
+.menu{
+    text-align: center;
+    padding-right: 57px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    
+}
+.menu a{
+    background-color: greenyellow;
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    color: darkred;
+    /* text-align: center; */
+}
+.menu:hover{
+    color: rgb(0, 115, 255);
+}
+.menu a:hover{
+    background-color: rgb(220, 69, 69);
+    color: azure;
+    text-decoration: none;
+    color: gold
 }
