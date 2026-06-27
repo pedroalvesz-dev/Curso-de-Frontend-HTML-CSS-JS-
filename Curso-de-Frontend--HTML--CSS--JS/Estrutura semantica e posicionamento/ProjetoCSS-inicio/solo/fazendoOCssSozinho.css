@@ -1,0 +1,161 @@
+body{
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 490px;
+    padding-top: 1px;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.hero-content h1{
+    font-size: 70px;
+    text-shadow: 7px 7px 7px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.hero-content p{
+    display: inline-block;
+    text-shadow: 4px 4px 4px black;
+    background-color: rgba(0, 0, 0, 0.624);
+    padding: 12px;
+    border-bottom: 5px solid white;
+    margin-bottom: 0;
+    font-size: 23px;
+}
+
+.hero ul{
+    text-align: center;
+    margin: 30px 20px 0 0;
+    margin-right: 40px;
+    margin-top: 47px;
+    margin-right: 63px;
+    margin-top: 74px;
+    margin-bottom: 0;
+}
+
+.hero li{
+    list-style: none;
+    text-transform: uppercase;
+    background-color: #d2cdcd;
+    display: inline-block;
+    margin: 5px;
+    padding: 17px;
+    border: 3px solid black;
+}
+
+
+.hero a{
+    letter-spacing: 3px;
+    text-decoration: dotted;
+    color: black;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.hero a:hover{
+    color:rgba(255, 128, 0, 0.869);
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.hero a:active{
+    color: chartreuse;
+}
+
+main{
+    margin:auto;
+    width: 70%;
+    min-width: 630px;
+    max-width: 950px;
+    margin-top: 43px;
+
+}
+
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 17px;
+    margin-bottom: 16px;
+    border: 3px solid rgb(150, 149, 149);
+}
+
+article p{
+    line-height: 20px;
+    text-align: justify;
+    color: black;
+}
+
+article h2{
+    background-color: #ccc;
+    padding: 17px;
+    text-align: center;
+    margin: auto;
+    border-bottom:2px solid black;
+}
+
+a.fde{
+    background-color: #d2cdcd;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+    border-radius: 7px;
+    border: 2px solid black;
+    text-decoration: double;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: brown;
+    text-shadow: 0.3px 0.3px 0.3px black;
+}
+
+a.fde:link{
+    color: rgba(10, 236, 236, 0.914);
+    text-shadow: 0.3px 0.3px 0.3px black;
+}
+
+a.fde:visited{
+    color: rgba(224, 12, 12, 0.836);
+    text-shadow: 0.7px 0.7px 0.7px black;
+}
+
+
+a.fde:hover{
+    color: rgb(0, 0, 0);
+}
+
+a.fde:active{
+    color: chartreuse;
+}
+
+.rodapeNaRedaçao{
+    margin-top: 50px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.745);
+    text-align: center;
+    padding: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.font-size{
+    font-size: 19.5px;
+    line-height: 30px;
+}
+
+
+
+
