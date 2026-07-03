@@ -7,9 +7,9 @@ body{
 
 .hero{
     background-image: url(../imagens/bg-3.jpg);
-    background-position: right center;
+    background-position:right center;
     background-size: cover;
-    height: 490px;
+    height: 500px;
     padding-top: 1px;
 }
 
@@ -78,8 +78,8 @@ body{
 main{
     margin:auto;
     width: 70%;
-    min-width: 630px;
-    max-width: 950px;
+    min-width: 700px;
+    max-width: 1050px;
     margin-top: 43px;
 
 }
@@ -115,45 +115,36 @@ a.fde{
     border-radius: 7px;
     border: 2px solid black;
     text-decoration: double;
-    font-size: 19px;
+    font-size: 20px;
     text-transform: capitalize;
-    color: brown;
+    color: rgb(169, 34, 34);
     text-shadow: 0.3px 0.3px 0.3px black;
 }
-
-a.fde:link{
-    color: rgba(10, 236, 236, 0.914);
-    text-shadow: 0.3px 0.3px 0.3px black;
-}
-
-a.fde:visited{
-    color: rgba(224, 12, 12, 0.836);
-    text-shadow: 0.7px 0.7px 0.7px black;
-}
-
 
 a.fde:hover{
-    color: rgb(0, 0, 0);
+    color: rgba(19, 210, 19, 0.628);
 }
 
 a.fde:active{
-    color: chartreuse;
+    background-color: rgba(22, 37, 172, 0.852);
 }
 
 .rodapeNaRedaçao{
-    margin-top: 50px;
+
     color: white;
-    background-color:rgba(0, 0, 0, 0.745);
+    background-color:rgba(0, 0, 0, 0.541);
     text-align: center;
-    padding: 27px;
+    padding: 63px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-shadow: 2px 2px 2px black;
+    margin-top: 50px;
 }
 
 .font-size{
-    font-size: 19.5px;
-    line-height: 30px;
+    font-size: 19.9px;
+    line-height: 23px;
+
 }
 
 
