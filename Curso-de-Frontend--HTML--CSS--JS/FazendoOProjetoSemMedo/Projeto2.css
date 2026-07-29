@@ -1,0 +1,122 @@
+body{
+    background-color: rgba(255, 228, 196, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.MainImage{
+    background-image: url(../FazendoOProjetoSemMedo/imagens/bg-2.jpg);
+    height: 490px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-top: 1px;
+    background-size: cover;
+}
+
+.MainTitle{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.FirstParagraph{
+    text-align: center;
+    margin-top: 0;
+    background-color: rgba(0,0,0, 0.3);
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.745);    
+    border: 2px solid black;
+}
+
+.KeyLinks{
+    margin: 20px 50px;
+    text-align: right;
+    
+}
+
+.KeyLinks ul{
+    display: inline-block;
+    list-style-type:none;
+    margin-top: 33px;
+
+}
+
+.KeyLinks ul a{
+    background-color: rgba(0, 0, 0, 0.672);
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid  white;
+}
+
+.KeyLinks ul a:hover{
+    color: greenyellow;
+}
+
+.MainContent{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #ccc;
+    width: 50%;
+    margin: auto;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    text-align: right;
+    height: 250px;
+}
+
+.alignment{
+    height: 290px;
+}
+
+.MainContent header{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+
+
+}
+
+.MainContent header h2{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 10px;
+    border: 3px solid white;
+    
+}
+
+.MainContent p{
+    line-height: 22px;
+    margin-top: 0;
+    letter-spacing: 1.1px;
+    width: fit-content;
+    text-align: justify;
+    margin-left: 11px;
+    margin-right: 11px;
+    font-size: 17px;
+}
+
+.MainContent a{
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.617);
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.MainContent a:hover{
+    color: red;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.482);
+    text-align: center;
+    padding: 20px;
+}
