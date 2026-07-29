@@ -78,4 +78,5 @@ body {
 
 .list-item:hover  .list-item__action{
     opacity: 0.3;
+    
 }
