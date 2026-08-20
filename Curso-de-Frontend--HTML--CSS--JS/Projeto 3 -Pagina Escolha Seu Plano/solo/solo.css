@@ -1,0 +1,126 @@
+body{
+    background-color: #0c1014;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.Main-title{
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgb(159, 7, 7);
+
+}
+
+.header{
+    background-color: #05080a;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(185, 12, 12);
+}
+
+.header ul{
+    display: flex;
+    gap: 17px;
+    list-style-type:none;
+}
+
+.header a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a.exclusive{
+    padding: 12px;
+    background-color: rgba(127, 255, 212, 0.836);
+    color: black;
+    border-radius: 9px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.header__nav a:hover{
+    text-decoration: underline;
+}
+
+.InformationBox{
+    display: flex;
+    gap: 17px;
+}
+
+.InformationBox__plan{
+    background-color: #1f262c ;
+    padding: 30px;
+    flex: 1;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px -30px;
+
+}
+
+.InformationBox__plan p{
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.InformationBox__price{
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.InformationBox__title{
+    border-bottom: 3px solid #cbe300;;
+    text-align: center;
+    padding: 7px;
+}
+
+.InformationBox__details{
+    line-height: 31px;
+    color: #b5b5b5;
+    padding: 16px;
+    font-size: 16px;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.InformationBox__details li::marker{
+    color: #cbe300;
+    
+}
+
+.InformationBox__plan{
+    display: flex;
+    flex-direction: column;
+}
+.InformationBox__link{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #cbe300;
+    padding: 20px;
+    color: #05080a;
+}
+
+.InformationBox__link:hover{
+    background-color: transparent;
+    color: white;
+    outline: 2px solid #cbe300;
+}
+
+.InformationBox__title{
+    text-transform: uppercase;
+    
+}
