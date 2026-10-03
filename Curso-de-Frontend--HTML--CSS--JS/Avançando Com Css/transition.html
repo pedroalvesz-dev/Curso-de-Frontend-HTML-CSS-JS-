@@ -5,7 +5,10 @@
     <title>Transition</title>
 
     <style>
-        div{
+        div{     
+            
+            --anima:cubic-bezier(.55,-0.28,.48,1.28);
+
             background-color: orange;
             width: 200px;
             height: 150px;
@@ -13,7 +16,12 @@
             transition-property: width,heigth, background-color;
             transition-duration: .5s, 1s;
             transition-timing-function:cubic-bezier(.55,-0.28,.48,1.28);
-            transition-delay: 0, 5s;
+            transition-delay: 0s, .3s;
+
+            /* transition: property(all) duration(0) functivar(--anima)) delay(0); */
+            transition: width .5s var(--anima), height var(--anima) .3s,background-color var(--anima) ;
+
+
         }
 
         div:hover{
